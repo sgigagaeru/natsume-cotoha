@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>構文解析しながら夏目漱石を読む</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand" id="subtitle">構文解析しながら夏目漱石を読む</span>
+        <form class="form-inline">
+          <select class="form-control mr-2" id="night_number">
+            <option value="1st-night">第一夜</option>
+            <option value="2nd-night">第二夜</option>
+            <option value="3rd-night">第三夜</option>
+            <option value="4th-night">第四夜</option>
+            <option value="5th-night">第五夜</option>
+            <option value="6th-night">第六夜</option>
+            <option value="7th-night">第七夜</option>
+            <option value="8th-night">第八夜</option>
+            <option value="9th-night">第九夜</option>
+            <option value="10th-night">第十夜</option>
+          </select>
+          <button class="btn btn-outline-dark my-2" type="submit">朗読はじめ</button>
+        </form>
+      </nav>
+      <div class="row">
+        <div class="col mx-2 my-4" id="sentence">右上のドロップダウンで第何夜を読むか指定して、「朗読はじめ」を押して下さい。</div>
+      </div>
+      <div class="row">
+        <div class="col" id="svg" class="img-fluid"></div>
+      </div>
+    </div>
+    <script src="js/viz.js"></script>
+    <script src="js/full.render.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+      var url = '../get_dot';
+      var viz = new Viz();
+      var reading = false;
+      var subtitle = "第一夜";
+      var night_number = 1;
+      var line_number = 0;
+      var instruction_text = $("#sentence").text();
+      var brand_text = $("#subtitle").text();
+
+      function renderSVG(dot) {
+        viz.renderSVGElement(dot)
+        .then(function(element) {
+          $("#svg").html(element);
+        });
+      };
+
+      function getDot() {
+        $.ajax({
+          url: url,
+          dataType: 'JSON',
+          type: 'POST',
+          data: {
+            'line_number' : line_number,
+            'night_number' : night_number,
+          }
+        }).done(function(data){
+          if (reading) {
+            $("#sentence").text(data.text);
+            renderSVG(data.dot);
+            line_number = data.next_line_number;
+            if (line_number != 0) {
+              setTimeout(getDot, data.text_length * 150);
+            } else {
+              setTimeout(stopReading, data.text_length * 150);
+            }
+          }
+        });
+      }
+
+      function startReading() {
+        $("button").text("朗読やめ");
+        $("select").prop("disabled", true);
+        reading = true;
+      }
+
+      function resumeReading() {
+        $("button").text("朗読はじめ");
+        $("select").prop("disabled", false);
+        reading = false;
+      }
+
+      function stopReading() {
+        resumeReading();
+        $("#subtitle").text(brand_text);
+        $("#sentence").text(instruction_text);
+        $("#svg").html("<span>&nbsp;</span>");
+      }
+
+      $("button").click(function(){
+        if (reading) {
+          resumeReading();
+        } else {
+          subtitle = $("#night_number option:selected").text();
+          $("#subtitle").text("《夢十夜》より《" + subtitle + "》");
+          night_number = $("#night_number").val();
+          getDot();
+          startReading();
+        }
+        return false;
+      });
+
+      $("select").change(function(){
+        line_number = 0
+      });
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

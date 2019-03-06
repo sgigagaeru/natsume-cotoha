@@ -1,0 +1,274 @@
+[
+  {
+    "text": "床屋の敷居を跨いだら、白い着物を着てかたまっていた三四人が、一度にいらっしゃいと云った。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"床屋 の\" \"敷居 を\" \"跨 い だら 、\" \"白 い\" \"着物 を\" \"着 て\" \"かたま っ て い た\" \"三四 人 が 、\" \"一度 に\" \"いらっしゃ い と\" \"云 っ た 。\" \"敷居 を\" -> \"床屋 の\" [label=adjectivals] \"跨 い だら 、\" -> \"敷居 を\" [label=object] \"着物 を\" -> \"白 い\" [label=adjectivals] \"着 て\" -> \"着物 を\" [label=object] \"かたま っ て い た\" -> \"着 て\" [label=manner] \"三四 人 が 、\" -> \"かたま っ て い た\" [label=adjectivals] \"いらっしゃ い と\" -> \"跨 い だら 、\" [label=manner] \"いらっしゃ い と\" -> \"三四 人 が 、\" [label=object] \"いらっしゃ い と\" -> \"一度 に\" [label=goal] \"云 っ た 。\" -> \"いらっしゃ い と\" [label=object]}"
+  },
+  {
+    "text": "真中に立って見廻すと、四角な部屋である。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"真中 に\" \"立 っ て\" \"見 廻 す と 、\" \"四角 な\" \"部屋 で あ る 。\" \"立 っ て\" -> \"真中 に\" [label=place] \"見 廻 す と 、\" -> \"立 っ て\" [label=manner] \"部屋 で あ る 。\" -> \"見 廻 す と 、\" [label=manner] \"部屋 で あ る 。\" -> \"四角 な\" [label=adjectivals]}"
+  },
+  {
+    "text": "窓が二方に開いて、残る二方に鏡が懸っている。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"窓 が\" \"二 方 に\" \"開 い て 、\" \"残 る\" \"二 方 に\" \"鏡 が\" \"懸 っ て い る 。\" \"開 い て 、\" -> \"窓 が\" [label=object] \"開 い て 、\" -> \"二 方 に\" [label=place] \"二 方 に\" -> \"残 る\" [label=adjectivals] \"懸 っ て い る 。\" -> \"開 い て 、\" [label=manner] \"懸 っ て い る 。\" -> \"二 方 に\" [label=goal] \"懸 っ て い る 。\" -> \"鏡 が\" [label=object]}"
+  },
+  {
+    "text": "鏡の数を勘定したら六つあった。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"鏡 の\" \"数 を\" \"勘定 し たら\" \"六つ\" \"あ っ た 。\" \"数 を\" -> \"鏡 の\" [label=adjectivals] \"勘定 し たら\" -> \"数 を\" [label=object] \"あ っ た 。\" -> \"勘定 し たら\" [label=manner] \"あ っ た 。\" -> \"六つ\" [label=manner]}"
+  },
+  {
+    "text": "自分はその一つの前へ来て腰をおろした。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"自分 は\" \"その\" \"一つ の\" \"前 へ\" \"来 て\" \"腰 を\" \"おろ し た 。\" \"一つ の\" -> \"その\" [label=adjectivals] \"前 へ\" -> \"一つ の\" [label=adjectivals] \"来 て\" -> \"前 へ\" [label=goal] \"おろ し た 。\" -> \"自分 は\" [label=agent] \"おろ し た 。\" -> \"来 て\" [label=manner] \"おろ し た 。\" -> \"腰 を\" [label=object]}"
+  },
+  {
+    "text": "すると御尻がぶくりと云った。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"すると\" \"御 尻 が ぶくり と\" \"云 っ た 。\" \"云 っ た 。\" -> \"すると\" [label=discourse] \"云 っ た 。\" -> \"御 尻 が ぶくり と\" [label=object]}"
+  },
+  {
+    "text": "よほど坐り心地が好くできた椅子である。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"よほど\" \"坐 り\" \"心地 が\" \"好 く\" \"でき た\" \"椅子 で あ る 。\" \"坐 り\" -> \"よほど\" [label=manner] \"でき た\" -> \"坐 り\" [label=manner] \"でき た\" -> \"心地 が\" [label=object] \"でき た\" -> \"好 く\" [label=manner] \"椅子 で あ る 。\" -> \"でき た\" [label=adjectivals]}"
+  },
+  {
+    "text": "鏡には自分の顔が立派に映った。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"鏡 には\" \"自分 の\" \"顔 が\" \"立派 に\" \"映 っ た 。\" \"顔 が\" -> \"自分 の\" [label=adjectivals] \"映 っ た 。\" -> \"鏡 には\" [label=manner] \"映 っ た 。\" -> \"顔 が\" [label=object] \"映 っ た 。\" -> \"立派 に\" [label=place]}"
+  },
+  {
+    "text": "顔の後には窓が見えた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"顔 の\" \"後 には\" \"窓 が\" \"見え た 。\" \"後 には\" -> \"顔 の\" [label=adjectivals] \"見え た 。\" -> \"後 には\" [label=time] \"見え た 。\" -> \"窓 が\" [label=object]}"
+  },
+  {
+    "text": "それから帳場格子が斜に見えた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"それから\" \"帳場 格子 が\" \"斜 に\" \"見え た 。\" \"見え た 。\" -> \"それから\" [label=manner] \"見え た 。\" -> \"帳場 格子 が\" [label=object] \"見え た 。\" -> \"斜 に\" [label=object]}"
+  },
+  {
+    "text": "格子の中には人がいなかった。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"格子 の\" \"中 には\" \"人 が\" \"い な かった 。\" \"中 には\" -> \"格子 の\" [label=adjectivals] \"い な かった 。\" -> \"中 には\" [label=place] \"い な かった 。\" -> \"人 が\" [label=object]}"
+  },
+  {
+    "text": "窓の外を通る往来の人の腰から上がよく見えた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"窓 の\" \"外 を\" \"通 る\" \"往来 の\" \"人 の\" \"腰 から\" \"上 が\" \"よく\" \"見え た 。\" \"外 を\" -> \"窓 の\" [label=adjectivals] \"通 る\" -> \"外 を\" [label=object] \"往来 の\" -> \"通 る\" [label=adjectivals] \"人 の\" -> \"往来 の\" [label=adjectivals] \"腰 から\" -> \"人 の\" [label=adjectivals] \"見え た 。\" -> \"腰 から\" [label=source] \"見え た 。\" -> \"上 が\" [label=object] \"見え た 。\" -> \"よく\" [label=manner]}"
+  },
+  {
+    "text": "庄太郎が女を連れて通る。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"庄太郎 が\" \"女 を\" \"連れ て\" \"通 る 。\" \"連れ て\" -> \"庄太郎 が\" [label=object] \"連れ て\" -> \"女 を\" [label=object] \"通 る 。\" -> \"連れ て\" [label=manner]}"
+  },
+  {
+    "text": "庄太郎はいつの間にかパナマの帽子を買って被っている。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"庄太郎 は\" \"いつの間にか\" \"パナマ の\" \"帽子 を\" \"買 っ て\" \"被 っ て い る 。\" \"帽子 を\" -> \"パナマ の\" [label=adjectivals] \"買 っ て\" -> \"いつの間にか\" [label=manner] \"買 っ て\" -> \"帽子 を\" [label=object] \"被 っ て い る 。\" -> \"庄太郎 は\" [label=agent] \"被 っ て い る 。\" -> \"買 っ て\" [label=manner]}"
+  },
+  {
+    "text": "女もいつの間に拵らえたものやら。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"女 も\" \"いつの間 に\" \"拵 ら\" \"え た\" \"もの やら 。\" \"え た\" -> \"いつの間 に\" [label=goal] \"え た\" -> \"拵 ら\" [label=agent] \"もの やら 。\" -> \"女 も\" [label=other] \"もの やら 。\" -> \"え た\" [label=other]}"
+  },
+  {
+    "text": "ちょっと解らない。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"ちょっと\" \"解 ら ない 。\" \"解 ら ない 。\" -> \"ちょっと\" [label=manner]}"
+  },
+  {
+    "text": "双方とも得意のようであった。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"双方 とも\" \"得意 の よう で あ っ た 。\" \"得意 の よう で あ っ た 。\" -> \"双方 とも\" [label=other]}"
+  },
+  {
+    "text": "よく女の顔を見ようと思ううちに通り過ぎてしまった。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"よく\" \"女 の\" \"顔 を\" \"見 よ う と\" \"思 う\" \"うち に\" \"通 り 過ぎ て しま っ た 。\" \"顔 を\" -> \"女 の\" [label=adjectivals] \"見 よ う と\" -> \"よく\" [label=manner] \"見 よ う と\" -> \"顔 を\" [label=object] \"思 う\" -> \"見 よ う と\" [label=object] \"うち に\" -> \"思 う\" [label=adjectivals] \"通 り 過ぎ て しま っ た 。\" -> \"うち に\" [label=goal]}"
+  },
+  {
+    "text": "豆腐屋が喇叭を吹いて通った。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"豆腐 屋 が\" \"喇叭 を\" \"吹 い て\" \"通 っ た 。\" \"吹 い て\" -> \"喇叭 を\" [label=object] \"通 っ た 。\" -> \"豆腐 屋 が\" [label=object] \"通 っ た 。\" -> \"吹 い て\" [label=manner]}"
+  },
+  {
+    "text": "喇叭を口へあてがっているんで、頬ぺたが蜂に螫されたように膨れていた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"喇叭 を\" \"口 へ\" \"あてが っ て い る んで 、\" \"頬 ぺた が\" \"蜂 に\" \"螫 さ れ た よう に\" \"膨れ て い た 。\" \"あてが っ て い る んで 、\" -> \"喇叭 を\" [label=object] \"あてが っ て い る んで 、\" -> \"口 へ\" [label=goal] \"膨れ て い た 。\" -> \"あてが っ て い る んで 、\" [label=manner] \"膨れ て い た 。\" -> \"頬 ぺた が\" [label=agent] \"膨れ て い た 。\" -> \"蜂 に\" [label=implement] \"膨れ て い た 。\" -> \"螫 さ れ た よう に\" [label=goal]}"
+  },
+  {
+    "text": "膨れたまんまで通り越したものだから、気がかりでたまらない。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"膨れ た\" \"まんま で\" \"通り越 し た\" \"もの だ から 、\" \"気がかり で\" \"たまらな い 。\" \"まんま で\" -> \"膨れ た\" [label=adjectivals] \"通り越 し た\" -> \"まんま で\" [label=condition] \"もの だ から 、\" -> \"通り越 し た\" [label=adjectivals] \"たまらな い 。\" -> \"もの だ から 、\" [label=manner] \"たまらな い 。\" -> \"気がかり で\" [label=condition]}"
+  },
+  {
+    "text": "生涯蜂に螫されているように思う。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"生涯 蜂 に\" \"螫 さ れ て い る よう に\" \"思 う 。\" \"螫 さ れ て い る よう に\" -> \"生涯 蜂 に\" [label=goal] \"思 う 。\" -> \"螫 さ れ て い る よう に\" [label=object]}"
+  },
+  {
+    "text": "芸者が出た。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"芸者 が\" \"出 た 。\" \"出 た 。\" -> \"芸者 が\" [label=agent]}"
+  },
+  {
+    "text": "まだ御化粧をしていない。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"まだ\" \"御 化粧 を\" \"し て い ない 。\" \"し て い ない 。\" -> \"まだ\" [label=manner] \"し て い ない 。\" -> \"御 化粧 を\" [label=object]}"
+  },
+  {
+    "text": "島田の根が緩んで、何だか頭に締りがない。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"島田 の\" \"根 が\" \"緩 んで 、\" \"何だか\" \"頭 に\" \"締り が\" \"な い 。\" \"根 が\" -> \"島田 の\" [label=adjectivals] \"緩 んで 、\" -> \"根 が\" [label=object] \"な い 。\" -> \"緩 んで 、\" [label=manner] \"な い 。\" -> \"何だか\" [label=manner] \"な い 。\" -> \"頭 に\" [label=place] \"な い 。\" -> \"締り が\" [label=object]}"
+  },
+  {
+    "text": "顔も寝ぼけている。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"顔 も\" \"寝ぼけ て い る 。\" \"寝ぼけ て い る 。\" -> \"顔 も\" [label=aobject]}"
+  },
+  {
+    "text": "色沢が気の毒なほど悪い。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"色 沢 が\" \"気の毒 な\" \"ほど\" \"悪 い 。\" \"気の毒 な\" -> \"色 沢 が\" [label=aobject] \"ほど\" -> \"気の毒 な\" [label=adjectivals] \"悪 い 。\" -> \"ほど\" [label=manner]}"
+  },
+  {
+    "text": "それで御辞儀をして、どうも何とかですと云ったが、相手はどうしても鏡の中へ出て来ない。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"それで\" \"御辞儀 を\" \"し て 、\" \"どうも\" \"何とか です と\" \"云 っ た が 、\" \"相手 は\" \"どうしても\" \"鏡 の\" \"中 へ\" \"出 て 来 ない 。\" \"し て 、\" -> \"それで\" [label=discourse] \"し て 、\" -> \"御辞儀 を\" [label=object] \"云 っ た が 、\" -> \"し て 、\" [label=manner] \"云 っ た が 、\" -> \"どうも\" [label=manner] \"云 っ た が 、\" -> \"何とか です と\" [label=object] \"中 へ\" -> \"鏡 の\" [label=adjectivals] \"出 て 来 ない 。\" -> \"云 っ た が 、\" [label=manner] \"出 て 来 ない 。\" -> \"相手 は\" [label=agent] \"出 て 来 ない 。\" -> \"どうしても\" [label=manner] \"出 て 来 ない 。\" -> \"中 へ\" [label=goal]}"
+  },
+  {
+    "text": "すると白い着物を着た大きな男が、自分の後ろへ来て、鋏と櫛を持って自分の頭を眺め出した。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"すると\" \"白 い\" \"着物 を\" \"着 た\" \"大きな\" \"男 が 、\" \"自分 の\" \"後ろ へ\" \"来 て 、\" \"鋏 と\" \"櫛 を\" \"持 っ て\" \"自分 の\" \"頭 を\" \"眺め 出 し た 。\" \"着物 を\" -> \"白 い\" [label=adjectivals] \"着 た\" -> \"着物 を\" [label=object] \"男 が 、\" -> \"着 た\" [label=adjectivals] \"男 が 、\" -> \"大きな\" [label=adjectivals] \"後ろ へ\" -> \"自分 の\" [label=adjectivals] \"来 て 、\" -> \"男 が 、\" [label=object] \"来 て 、\" -> \"後ろ へ\" [label=goal] \"櫛 を\" -> \"鋏 と\" [label=other] \"持 っ て\" -> \"櫛 を\" [label=object] \"頭 を\" -> \"自分 の\" [label=adjectivals] \"眺め 出 し た 。\" -> \"すると\" [label=discourse] \"眺め 出 し た 。\" -> \"来 て 、\" [label=manner] \"眺め 出 し た 。\" -> \"持 っ て\" [label=manner] \"眺め 出 し た 。\" -> \"頭 を\" [label=object]}"
+  },
+  {
+    "text": "自分は薄い髭を捩って、どうだろう物になるだろうかと尋ねた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"自分 は\" \"薄 い\" \"髭 を\" \"捩 っ て 、\" \"どう だろう\" \"物 に\" \"な る だろう か と\" \"尋ね た 。\" \"髭 を\" -> \"薄 い\" [label=adjectivals] \"捩 っ て 、\" -> \"髭 を\" [label=object] \"物 に\" -> \"どう だろう\" [label=adjectivals] \"な る だろう か と\" -> \"自分 は\" [label=agent] \"な る だろう か と\" -> \"捩 っ て 、\" [label=manner] \"な る だろう か と\" -> \"物 に\" [label=goal] \"尋ね た 。\" -> \"な る だろう か と\" [label=object]}"
+  },
+  {
+    "text": "白い男は、何にも云わずに、手に持った琥珀色の櫛で軽く自分の頭を叩いた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"白 い\" \"男 は 、\" \"何にも\" \"云 わ ずに 、\" \"手 に\" \"持 っ た\" \"琥珀色 の\" \"櫛 で\" \"軽く\" \"自分 の\" \"頭 を\" \"叩 い た 。\" \"男 は 、\" -> \"白 い\" [label=adjectivals] \"云 わ ずに 、\" -> \"何にも\" [label=manner] \"持 っ た\" -> \"手 に\" [label=place] \"琥珀色 の\" -> \"持 っ た\" [label=adjectivals] \"櫛 で\" -> \"琥珀色 の\" [label=adjectivals] \"頭 を\" -> \"自分 の\" [label=adjectivals] \"叩 い た 。\" -> \"男 は 、\" [label=aobject] \"叩 い た 。\" -> \"云 わ ずに 、\" [label=manner] \"叩 い た 。\" -> \"櫛 で\" [label=condition] \"叩 い た 。\" -> \"軽く\" [label=manner] \"叩 い た 。\" -> \"頭 を\" [label=object]}"
+  },
+  {
+    "text": "「さあ、頭もだが、どうだろう、物になるだろうか」と自分は白い男に聞いた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"「 さあ 、\" \"頭 も\" \"だが 、\" \"どう だろう 、\" \"物 に\" \"な る だろう か 」 と\" \"自分 は\" \"白 い\" \"男 に\" \"聞 い た 。\" \"だが 、\" -> \"「 さあ 、\" [label=other] \"だが 、\" -> \"頭 も\" [label=time] \"な る だろう か 」 と\" -> \"どう だろう 、\" [label=adjectivals] \"な る だろう か 」 と\" -> \"物 に\" [label=goal] \"男 に\" -> \"白 い\" [label=adjectivals] \"聞 い た 。\" -> \"だが 、\" [label=discourse] \"聞 い た 。\" -> \"な る だろう か 」 と\" [label=object] \"聞 い た 。\" -> \"自分 は\" [label=agent] \"聞 い た 。\" -> \"男 に\" [label=beneficiary]}"
+  },
+  {
+    "text": "白い男はやはり何も答えずに、ちゃきちゃきと鋏を鳴らし始めた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"白 い\" \"男 は\" \"やはり\" \"何も\" \"答え ずに 、\" \"ちゃきちゃき と\" \"鋏 を\" \"鳴ら し 始め た 。\" \"男 は\" -> \"白 い\" [label=adjectivals] \"答え ずに 、\" -> \"男 は\" [label=aobject] \"答え ずに 、\" -> \"やはり\" [label=manner] \"答え ずに 、\" -> \"何も\" [label=manner] \"鳴ら し 始め た 。\" -> \"答え ずに 、\" [label=manner] \"鳴ら し 始め た 。\" -> \"ちゃきちゃき と\" [label=object] \"鳴ら し 始め た 。\" -> \"鋏 を\" [label=object]}"
+  },
+  {
+    "text": "鏡に映る影を一つ残らず見るつもりで眼をっていたが、鋏の鳴るたんびに黒い毛が飛んで来るので、恐ろしくなって、やがて眼を閉じた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"鏡 に\" \"映 る\" \"影 を\" \"一つ\" \"残らず\" \"見 る つもり で\" \"眼 を って い た が 、\" \"鋏 の\" \"鳴 る\" \"たんび に\" \"黒 い\" \"毛 が\" \"飛 ん で 来る ので 、\" \"恐ろし く な っ て 、\" \"やがて\" \"眼 を\" \"閉じ た 。\" \"映 る\" -> \"鏡 に\" [label=place] \"影 を\" -> \"映 る\" [label=adjectivals] \"残らず\" -> \"影 を\" [label=aobject] \"残らず\" -> \"一つ\" [label=manner] \"見 る つもり で\" -> \"残らず\" [label=manner] \"眼 を って い た が 、\" -> \"見 る つもり で\" [label=implement] \"鳴 る\" -> \"鋏 の\" [label=adjectivals] \"たんび に\" -> \"鳴 る\" [label=adjectivals] \"毛 が\" -> \"黒 い\" [label=adjectivals] \"飛 ん で 来る ので 、\" -> \"たんび に\" [label=time] \"飛 ん で 来る ので 、\" -> \"毛 が\" [label=object] \"閉じ た 。\" -> \"眼 を って い た が 、\" [label=object] \"閉じ た 。\" -> \"飛 ん で 来る ので 、\" [label=manner] \"閉じ た 。\" -> \"恐ろし く な っ て 、\" [label=manner] \"閉じ た 。\" -> \"やがて\" [label=manner] \"閉じ た 。\" -> \"眼 を\" [label=object]}"
+  },
+  {
+    "text": "すると白い男が、こう云った。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"すると\" \"白 い\" \"男 が 、\" \"こう\" \"云 っ た 。\" \"男 が 、\" -> \"白 い\" [label=adjectivals] \"云 っ た 。\" -> \"すると\" [label=discourse] \"云 っ た 。\" -> \"男 が 、\" [label=object] \"云 っ た 。\" -> \"こう\" [label=manner]}"
+  },
+  {
+    "text": "「旦那は表の金魚売を御覧なすったか」",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"「 旦那 は\" \"表 の\" \"金魚 売 を\" \"御覧\" \"なす っ た か 」\" \"金魚 売 を\" -> \"表 の\" [label=adjectivals] \"なす っ た か 」\" -> \"「 旦那 は\" [label=agent] \"なす っ た か 」\" -> \"金魚 売 を\" [label=object] \"なす っ た か 」\" -> \"御覧\" [label=manner]}"
+  },
+  {
+    "text": "自分は見ないと云った。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"自分 は\" \"見 ない と\" \"云 っ た 。\" \"見 ない と\" -> \"自分 は\" [label=agent] \"云 っ た 。\" -> \"見 ない と\" [label=object]}"
+  },
+  {
+    "text": "白い男はそれぎりで、しきりと鋏を鳴らしていた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"白 い\" \"男 は\" \"それ\" \"ぎり で 、\" \"しきり と\" \"鋏 を\" \"鳴ら し て い た 。\" \"男 は\" -> \"白 い\" [label=adjectivals] \"ぎり で 、\" -> \"それ\" [label=other] \"鳴ら し て い た 。\" -> \"男 は\" [label=aobject] \"鳴ら し て い た 。\" -> \"ぎり で 、\" [label=condition] \"鳴ら し て い た 。\" -> \"しきり と\" [label=object] \"鳴ら し て い た 。\" -> \"鋏 を\" [label=object]}"
+  },
+  {
+    "text": "すると突然大きな声で危険と云ったものがある。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"すると\" \"突然\" \"大きな\" \"声 で\" \"危険 と\" \"云 っ た\" \"もの が\" \"あ る 。\" \"声 で\" -> \"大きな\" [label=adjectivals] \"危険 と\" -> \"突然\" [label=manner] \"云 っ た\" -> \"声 で\" [label=condition] \"云 っ た\" -> \"危険 と\" [label=object] \"もの が\" -> \"云 っ た\" [label=adjectivals] \"あ る 。\" -> \"すると\" [label=discourse] \"あ る 。\" -> \"もの が\" [label=object]}"
+  },
+  {
+    "text": "はっと眼を開けると、白い男の袖の下に自転車の輪が見えた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"はっと\" \"眼 を\" \"開け る と 、\" \"白 い\" \"男 の\" \"袖の下 に\" \"自転車 の\" \"輪 が\" \"見え た 。\" \"開け る と 、\" -> \"はっと\" [label=manner] \"開け る と 、\" -> \"眼 を\" [label=aobject] \"男 の\" -> \"白 い\" [label=adjectivals] \"袖の下 に\" -> \"男 の\" [label=adjectivals] \"輪 が\" -> \"自転車 の\" [label=adjectivals] \"見え た 。\" -> \"開け る と 、\" [label=manner] \"見え た 。\" -> \"袖の下 に\" [label=goal] \"見え た 。\" -> \"輪 が\" [label=object]}"
+  },
+  {
+    "text": "人力の梶棒が見えた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"人力 の\" \"梶棒 が\" \"見え た 。\" \"梶棒 が\" -> \"人力 の\" [label=adjectivals] \"見え た 。\" -> \"梶棒 が\" [label=object]}"
+  },
+  {
+    "text": "と思うと、白い男が両手で自分の頭を押えてうんと横へ向けた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"と\" \"思 う と 、\" \"白 い\" \"男 が\" \"両手 で\" \"自分 の\" \"頭 を\" \"押え て\" \"うんと\" \"横 へ\" \"向け た 。\" \"思 う と 、\" -> \"と\" [label=object] \"男 が\" -> \"白 い\" [label=adjectivals] \"頭 を\" -> \"自分 の\" [label=adjectivals] \"押え て\" -> \"男 が\" [label=object] \"押え て\" -> \"両手 で\" [label=condition] \"押え て\" -> \"頭 を\" [label=object] \"向け た 。\" -> \"思 う と 、\" [label=manner] \"向け た 。\" -> \"押え て\" [label=manner] \"向け た 。\" -> \"うんと\" [label=manner] \"向け た 。\" -> \"横 へ\" [label=goal]}"
+  },
+  {
+    "text": "自転車と人力車はまるで見えなくなった。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"自転車 と\" \"人力車 は\" \"まるで\" \"見え な く な っ た 。\" \"見え な く な っ た 。\" -> \"自転車 と\" [label=object] \"見え な く な っ た 。\" -> \"人力車 は\" [label=object] \"見え な く な っ た 。\" -> \"まるで\" [label=manner]}"
+  },
+  {
+    "text": "鋏の音がちゃきちゃきする。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"鋏 の\" \"音 が\" \"ちゃきちゃき する 。\" \"音 が\" -> \"鋏 の\" [label=adjectivals] \"ちゃきちゃき する 。\" -> \"音 が\" [label=agent]}"
+  },
+  {
+    "text": "やがて、白い男は自分の横へ廻って、耳の所を刈り始めた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"やがて 、\" \"白 い\" \"男 は\" \"自分 の\" \"横 へ\" \"廻 っ て 、\" \"耳 の\" \"所 を\" \"刈 り 始め た 。\" \"男 は\" -> \"白 い\" [label=adjectivals] \"横 へ\" -> \"自分 の\" [label=adjectivals] \"廻 っ て 、\" -> \"横 へ\" [label=goal] \"所 を\" -> \"耳 の\" [label=adjectivals] \"刈 り 始め た 。\" -> \"やがて 、\" [label=manner] \"刈 り 始め た 。\" -> \"男 は\" [label=aobject] \"刈 り 始め た 。\" -> \"廻 っ て 、\" [label=manner] \"刈 り 始め た 。\" -> \"所 を\" [label=object]}"
+  },
+  {
+    "text": "毛が前の方へ飛ばなくなったから、安心して眼を開けた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"毛 が\" \"前 の\" \"方 へ\" \"飛 ば な く な っ た から 、\" \"安心 し て\" \"眼 を\" \"開け た 。\" \"方 へ\" -> \"前 の\" [label=adjectivals] \"飛 ば な く な っ た から 、\" -> \"毛 が\" [label=object] \"飛 ば な く な っ た から 、\" -> \"方 へ\" [label=goal] \"開け た 。\" -> \"飛 ば な く な っ た から 、\" [label=manner] \"開け た 。\" -> \"安心 し て\" [label=manner] \"開け た 。\" -> \"眼 を\" [label=object]}"
+  },
+  {
+    "text": "粟餅や、餅やあ、餅や、と云う声がすぐ、そこでする。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"粟 餅 や 、\" \"餅 やあ 、\" \"餅 や 、 と\" \"云 う\" \"声 が\" \"すぐ 、\" \"そこ で\" \"する 。\" \"餅 やあ 、\" -> \"粟 餅 や 、\" [label=other] \"云 う\" -> \"餅 や 、 と\" [label=object] \"声 が\" -> \"云 う\" [label=adjectivals] \"する 。\" -> \"餅 やあ 、\" [label=manner] \"する 。\" -> \"声 が\" [label=object] \"する 。\" -> \"すぐ 、\" [label=manner] \"する 。\" -> \"そこ で\" [label=place]}"
+  },
+  {
+    "text": "小さい杵をわざと臼へあてて、拍子を取って餅を搗いている。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"小さ い\" \"杵 を\" \"わざと\" \"臼 へ\" \"あて て 、\" \"拍子 を\" \"取 っ て\" \"餅 を\" \"搗 い て い る 。\" \"杵 を\" -> \"小さ い\" [label=adjectivals] \"あて て 、\" -> \"杵 を\" [label=condition] \"あて て 、\" -> \"わざと\" [label=manner] \"あて て 、\" -> \"臼 へ\" [label=goal] \"取 っ て\" -> \"拍子 を\" [label=object] \"搗 い て い る 。\" -> \"あて て 、\" [label=manner] \"搗 い て い る 。\" -> \"取 っ て\" [label=manner] \"搗 い て い る 。\" -> \"餅 を\" [label=object]}"
+  },
+  {
+    "text": "粟餅屋は子供の時に見たばかりだから、ちょっと様子が見たい。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"粟 餅屋 は\" \"子供 の\" \"時 に\" \"見 た ばかり だ から 、\" \"ちょっと\" \"様子 が\" \"見 たい 。\" \"時 に\" -> \"子供 の\" [label=adjectivals] \"見 た ばかり だ から 、\" -> \"粟 餅屋 は\" [label=object] \"見 た ばかり だ から 、\" -> \"時 に\" [label=time] \"見 たい 。\" -> \"見 た ばかり だ から 、\" [label=manner] \"見 たい 。\" -> \"ちょっと\" [label=manner] \"見 たい 。\" -> \"様子 が\" [label=object]}"
+  },
+  {
+    "text": "けれども粟餅屋はけっして鏡の中に出て来ない。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"けれども\" \"粟 餅屋 は\" \"けっして\" \"鏡 の\" \"中 に\" \"出 て 来 ない 。\" \"中 に\" -> \"鏡 の\" [label=adjectivals] \"出 て 来 ない 。\" -> \"けれども\" [label=discourse] \"出 て 来 ない 。\" -> \"粟 餅屋 は\" [label=object] \"出 て 来 ない 。\" -> \"けっして\" [label=manner] \"出 て 来 ない 。\" -> \"中 に\" [label=goal]}"
+  },
+  {
+    "text": "ただ餅を搗く音だけする。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"ただ\" \"餅 を\" \"搗 く\" \"音 だけ する 。\" \"搗 く\" -> \"ただ\" [label=manner] \"搗 く\" -> \"餅 を\" [label=object] \"音 だけ する 。\" -> \"搗 く\" [label=adjectivals]}"
+  },
+  {
+    "text": "自分はあるたけの視力で鏡の角を覗き込むようにして見た。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"自分 は\" \"あ る\" \"たけ の\" \"視力 で\" \"鏡 の\" \"角 を\" \"覗 き 込 む よう に し て 見 た 。\" \"たけ の\" -> \"あ る\" [label=adjectivals] \"視力 で\" -> \"たけ の\" [label=adjectivals] \"角 を\" -> \"鏡 の\" [label=adjectivals] \"覗 き 込 む よう に し て 見 た 。\" -> \"自分 は\" [label=agent] \"覗 き 込 む よう に し て 見 た 。\" -> \"視力 で\" [label=condition] \"覗 き 込 む よう に し て 見 た 。\" -> \"角 を\" [label=object]}"
+  },
+  {
+    "text": "すると帳場格子のうちに、いつの間にか一人の女が坐っている。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"すると\" \"帳場 格子 の\" \"うち に 、\" \"いつの間にか\" \"一人 の\" \"女 が\" \"坐 っ て い る 。\" \"うち に 、\" -> \"帳場 格子 の\" [label=adjectivals] \"女 が\" -> \"一人 の\" [label=adjectivals] \"坐 っ て い る 。\" -> \"すると\" [label=discourse] \"坐 っ て い る 。\" -> \"うち に 、\" [label=place] \"坐 っ て い る 。\" -> \"いつの間にか\" [label=manner] \"坐 っ て い る 。\" -> \"女 が\" [label=object]}"
+  },
+  {
+    "text": "色の浅黒い眉毛の濃い大柄な女で、髪を銀杏返しに結って、黒繻子の半襟のかかった素袷で、立膝のまま、札の勘定をしている。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"色 の\" \"浅黒 い\" \"眉毛 の\" \"濃 い\" \"大柄 な\" \"女 で 、\" \"髪 を\" \"銀杏返し に\" \"結 っ て 、\" \"黒 繻子 の\" \"半襟 の\" \"かか っ た\" \"素袷 で 、\" \"立膝 の まま 、\" \"札 の\" \"勘定 を\" \"し て い る 。\" \"浅黒 い\" -> \"色 の\" [label=aobject] \"眉毛 の\" -> \"浅黒 い\" [label=adjectivals] \"濃 い\" -> \"眉毛 の\" [label=adjectivals] \"女 で 、\" -> \"濃 い\" [label=adjectivals] \"女 で 、\" -> \"大柄 な\" [label=adjectivals] \"結 っ て 、\" -> \"女 で 、\" [label=condition] \"結 っ て 、\" -> \"髪 を\" [label=object] \"結 っ て 、\" -> \"銀杏返し に\" [label=goal] \"半襟 の\" -> \"黒 繻子 の\" [label=adjectivals] \"かか っ た\" -> \"半襟 の\" [label=adjectivals] \"素袷 で 、\" -> \"かか っ た\" [label=adjectivals] \"札 の\" -> \"立膝 の まま 、\" [label=adjectivals] \"勘定 を\" -> \"札 の\" [label=adjectivals] \"し て い る 。\" -> \"結 っ て 、\" [label=manner] \"し て い る 。\" -> \"素袷 で 、\" [label=place] \"し て い る 。\" -> \"勘定 を\" [label=object]}"
+  },
+  {
+    "text": "札は十円札らしい。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"札 は\" \"十 円 札 らし い 。\" \"十 円 札 らし い 。\" -> \"札 は\" [label=agent]}"
+  },
+  {
+    "text": "女は長い睫を伏せて薄い唇を結んで一生懸命に、札の数を読んでいるが、その読み方がいかにも早い。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"女 は\" \"長 い\" \"睫 を\" \"伏せ て\" \"薄 い\" \"唇 を\" \"結 ん で\" \"一生懸命 に 、\" \"札 の\" \"数 を\" \"読 ん で い る が 、\" \"その\" \"読み方 が\" \"いかにも\" \"早 い 。\" \"睫 を\" -> \"長 い\" [label=adjectivals] \"伏せ て\" -> \"睫 を\" [label=object] \"唇 を\" -> \"薄 い\" [label=adjectivals] \"結 ん で\" -> \"伏せ て\" [label=manner] \"結 ん で\" -> \"唇 を\" [label=object] \"数 を\" -> \"札 の\" [label=adjectivals] \"読 ん で い る が 、\" -> \"女 は\" [label=agent] \"読 ん で い る が 、\" -> \"結 ん で\" [label=manner] \"読 ん で い る が 、\" -> \"一生懸命 に 、\" [label=place] \"読 ん で い る が 、\" -> \"数 を\" [label=object] \"読み方 が\" -> \"その\" [label=adjectivals] \"早 い 。\" -> \"読 ん で い る が 、\" [label=manner] \"早 い 。\" -> \"読み方 が\" [label=aobject] \"早 い 。\" -> \"いかにも\" [label=manner]}"
+  },
+  {
+    "text": "しかも札の数はどこまで行っても尽きる様子がない。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"しかも\" \"札 の\" \"数 は\" \"どこ まで\" \"行 っ て も\" \"尽き る\" \"様子 が\" \"な い 。\" \"数 は\" -> \"札 の\" [label=adjectivals] \"行 っ て も\" -> \"どこ まで\" [label=fromto] \"尽き る\" -> \"数 は\" [label=agent] \"尽き る\" -> \"行 っ て も\" [label=manner] \"様子 が\" -> \"尽き る\" [label=adjectivals] \"な い 。\" -> \"しかも\" [label=discourse] \"な い 。\" -> \"様子 が\" [label=object]}"
+  },
+  {
+    "text": "膝の上に乗っているのはたかだか百枚ぐらいだが、その百枚がいつまで勘定しても百枚である。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"膝 の\" \"上 に\" \"乗 っ て い る の は\" \"たかだか\" \"百 枚 ぐらい だ が 、\" \"その\" \"百 枚 が\" \"いつ まで\" \"勘定 し て も\" \"百 枚 で あ る 。\" \"上 に\" -> \"膝 の\" [label=adjectivals] \"乗 っ て い る の は\" -> \"上 に\" [label=place] \"百 枚 ぐらい だ が 、\" -> \"乗 っ て い る の は\" [label=agent] \"百 枚 ぐらい だ が 、\" -> \"たかだか\" [label=manner] \"百 枚 が\" -> \"その\" [label=adjectivals] \"勘定 し て も\" -> \"百 枚 が\" [label=agent] \"勘定 し て も\" -> \"いつ まで\" [label=timeto] \"百 枚 で あ る 。\" -> \"百 枚 ぐらい だ が 、\" [label=manner] \"百 枚 で あ る 。\" -> \"勘定 し て も\" [label=manner]}"
+  },
+  {
+    "text": "自分は茫然としてこの女の顔と十円札を見つめていた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"自分 は\" \"茫然 として\" \"この\" \"女 の\" \"顔 と\" \"十 円 札 を\" \"見つめ て い た 。\" \"女 の\" -> \"この\" [label=adjectivals] \"顔 と\" -> \"女 の\" [label=adjectivals] \"見つめ て い た 。\" -> \"自分 は\" [label=agent] \"見つめ て い た 。\" -> \"茫然 として\" [label=manner] \"見つめ て い た 。\" -> \"顔 と\" [label=object] \"見つめ て い た 。\" -> \"十 円 札 を\" [label=object]}"
+  },
+  {
+    "text": "すると耳の元で白い男が大きな声で「洗いましょう」と云った。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"すると\" \"耳 の\" \"元 で\" \"白 い\" \"男 が\" \"大きな\" \"声 で\" \"「 洗 い ましょう 」 と\" \"云 っ た 。\" \"元 で\" -> \"耳 の\" [label=adjectivals] \"男 が\" -> \"白 い\" [label=adjectivals] \"声 で\" -> \"大きな\" [label=adjectivals] \"「 洗 い ましょう 」 と\" -> \"男 が\" [label=object] \"云 っ た 。\" -> \"すると\" [label=discourse] \"云 っ た 。\" -> \"元 で\" [label=implement] \"云 っ た 。\" -> \"声 で\" [label=condition] \"云 っ た 。\" -> \"「 洗 い ましょう 」 と\" [label=object]}"
+  },
+  {
+    "text": "ちょうどうまい折だから、椅子から立ち上がるや否や、帳場格子の方をふり返って見た。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"ちょうど\" \"うま い\" \"折 だ から 、\" \"椅子 から\" \"立ち上が る や否や 、\" \"帳場 格子 の\" \"方 を\" \"ふり返 っ て 見 た 。\" \"うま い\" -> \"ちょうど\" [label=manner] \"折 だ から 、\" -> \"うま い\" [label=adjectivals] \"立ち上が る や否や 、\" -> \"椅子 から\" [label=source] \"方 を\" -> \"帳場 格子 の\" [label=adjectivals] \"ふり返 っ て 見 た 。\" -> \"折 だ から 、\" [label=manner] \"ふり返 っ て 見 た 。\" -> \"立ち上が る や否や 、\" [label=manner] \"ふり返 っ て 見 た 。\" -> \"方 を\" [label=object]}"
+  },
+  {
+    "text": "けれども格子のうちには女も札も何にも見えなかった。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"けれども\" \"格子 の\" \"うち には\" \"女 も\" \"札 も\" \"何にも\" \"見え な かった 。\" \"うち には\" -> \"格子 の\" [label=adjectivals] \"札 も\" -> \"女 も\" [label=other] \"見え な かった 。\" -> \"けれども\" [label=discourse] \"見え な かった 。\" -> \"うち には\" [label=manner] \"見え な かった 。\" -> \"札 も\" [label=object] \"見え な かった 。\" -> \"何にも\" [label=manner]}"
+  },
+  {
+    "text": "代を払って表へ出ると、門口の左側に、小判なりの桶が五つばかり並べてあって、その中に赤い金魚や、斑入の金魚や、痩せた金魚や、肥った金魚がたくさん入れてあった。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"代 を\" \"払 っ て\" \"表 へ\" \"出 る と 、\" \"門口 の\" \"左側 に 、\" \"小判 なり の\" \"桶 が\" \"五つ ばかり\" \"並べ て あ っ て 、\" \"その\" \"中 に\" \"赤 い\" \"金魚 や 、\" \"斑入 の\" \"金魚 や 、\" \"痩せ た\" \"金魚 や 、\" \"肥 っ た\" \"金魚 が\" \"たくさん\" \"入れ て あ っ た 。\" \"払 っ て\" -> \"代 を\" [label=object] \"出 る と 、\" -> \"払 っ て\" [label=manner] \"出 る と 、\" -> \"表 へ\" [label=place] \"左側 に 、\" -> \"門口 の\" [label=adjectivals] \"桶 が\" -> \"小判 なり の\" [label=adjectivals] \"並べ て あ っ て 、\" -> \"出 る と 、\" [label=manner] \"並べ て あ っ て 、\" -> \"左側 に 、\" [label=goal] \"並べ て あ っ て 、\" -> \"桶 が\" [label=object] \"並べ て あ っ て 、\" -> \"五つ ばかり\" [label=manner] \"中 に\" -> \"その\" [label=adjectivals] \"赤 い\" -> \"中 に\" [label=object] \"金魚 や 、\" -> \"赤 い\" [label=adjectivals] \"金魚 や 、\" -> \"金魚 や 、\" [label=other] \"金魚 や 、\" -> \"斑入 の\" [label=adjectivals] \"金魚 や 、\" -> \"金魚 や 、\" [label=other] \"金魚 や 、\" -> \"痩せ た\" [label=adjectivals] \"金魚 が\" -> \"金魚 や 、\" [label=other] \"金魚 が\" -> \"肥 っ た\" [label=adjectivals] \"入れ て あ っ た 。\" -> \"並べ て あ っ て 、\" [label=manner] \"入れ て あ っ た 。\" -> \"金魚 が\" [label=agent] \"入れ て あ っ た 。\" -> \"たくさん\" [label=manner]}"
+  },
+  {
+    "text": "そうして金魚売がその後にいた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"そうして\" \"金魚 売 が\" \"その後 に\" \"い た 。\" \"い た 。\" -> \"そうして\" [label=manner] \"い た 。\" -> \"金魚 売 が\" [label=object] \"い た 。\" -> \"その後 に\" [label=place]}"
+  },
+  {
+    "text": "金魚売は自分の前に並べた金魚を見つめたまま、頬杖を突いて、じっとしている。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"金魚 売 は\" \"自分 の\" \"前 に\" \"並べ た\" \"金魚 を\" \"見つめ た まま 、\" \"頬杖 を\" \"突 い て 、\" \"じっと し て い る 。\" \"前 に\" -> \"自分 の\" [label=adjectivals] \"並べ た\" -> \"前 に\" [label=time] \"金魚 を\" -> \"並べ た\" [label=adjectivals] \"見つめ た まま 、\" -> \"金魚 を\" [label=object] \"頬杖 を\" -> \"見つめ た まま 、\" [label=adjectivals] \"突 い て 、\" -> \"頬杖 を\" [label=object] \"じっと し て い る 。\" -> \"金魚 売 は\" [label=object] \"じっと し て い る 。\" -> \"突 い て 、\" [label=manner]}"
+  },
+  {
+    "text": "騒がしい往来の活動にはほとんど心を留めていない。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"騒がし い\" \"往来 の\" \"活動 には\" \"ほとんど\" \"心 を\" \"留め て い ない 。\" \"往来 の\" -> \"騒がし い\" [label=adjectivals] \"活動 には\" -> \"往来 の\" [label=adjectivals] \"留め て い ない 。\" -> \"活動 には\" [label=object] \"留め て い ない 。\" -> \"ほとんど\" [label=manner] \"留め て い ない 。\" -> \"心 を\" [label=object]}"
+  },
+  {
+    "text": "自分はしばらく立ってこの金魚売を眺めていた。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"自分 は\" \"しばらく\" \"立 っ て\" \"この\" \"金魚 売 を\" \"眺め て い た 。\" \"立 っ て\" -> \"しばらく\" [label=manner] \"金魚 売 を\" -> \"この\" [label=adjectivals] \"眺め て い た 。\" -> \"自分 は\" [label=agent] \"眺め て い た 。\" -> \"立 っ て\" [label=manner] \"眺め て い た 。\" -> \"金魚 売 を\" [label=object]}"
+  },
+  {
+    "text": "けれども自分が眺めている間、金魚売はちっとも動かなかった。",
+    "dot": "digraph { node [shape=circle] rankdir=LR \"けれども\" \"自分 が\" \"眺め て い る\" \"間 、\" \"金魚 売 は\" \"ちっとも\" \"動 か な かった 。\" \"眺め て い る\" -> \"自分 が\" [label=agent] \"間 、\" -> \"眺め て い る\" [label=adjectivals] \"動 か な かった 。\" -> \"けれども\" [label=discourse] \"動 か な かった 。\" -> \"間 、\" [label=time] \"動 か な かった 。\" -> \"金魚 売 は\" [label=object] \"動 か な かった 。\" -> \"ちっとも\" [label=manner]}"
+  }
+]
